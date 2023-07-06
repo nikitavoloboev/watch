@@ -1,0 +1,20 @@
+{
+  "name": "watch",
+  "scripts": {
+    "dev": "bun index.ts"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "mri": "^1.2.0"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
