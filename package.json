@@ -1,7 +1,7 @@
 {
   "name": "watch",
   "scripts": {
-    "dev": "bun index.ts"
+    "dev": "tsx index.ts"
   },
   "module": "index.ts",
   "type": "module",
@@ -12,7 +12,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "mri": "^1.2.0"
+    "mri": "^1.2.0",
+    "watcher": "^2.2.2"
   },
   "prettier": {
     "semi": false
